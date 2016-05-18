@@ -27,7 +27,7 @@ body {
 
 #header h1 {
   float: left;
-  margin-top: 25px;
+  margin-top: 10px;
   margin-left: 40px;
   border: 0;
 }
@@ -44,6 +44,11 @@ body {
   color: #fff;
   background: transparent;
   text-decoration: underline;
+}
+#header h2 {
+  position: absolute;
+  top: 15px;
+  left: 40px;
 }
 
 #systemNoticesWrapper {
@@ -470,6 +475,18 @@ only IE mac will see this*/
   background: #323232
 }
 
+#page_menu {
+  float: left;
+  width: 72%;
+}
+#page_memu, #page_menu ul {
+  margin: 0 0;
+}
+#page_menu ul > li {
+  display: inline;
+  margin: 0 5px;
+}
+
 #pageContent {
 	
 }
@@ -728,3 +745,23 @@ div.private {
 div.private span {
   display: none;
 }
+
+/* fixes */
+#memo {
+    background-color: #faf9e4;
+    border: 1px solid black;
+    border-radius: 5px;
+    bottom: 0;
+    font-size: 14px;
+    font-weight: bold;
+    height: 250px;
+    opacity: 0.8;
+    padding: 2px;
+    position: fixed;
+    right: 0;
+    width: 200px;
+    z-index: 9998;
+}
+#memo .header{text-align:center;background-color:#FAF9E4; color: black}
+#memo textarea{width:182px;height:210px;margin:0px;background:white;border:none;color:black}
+
